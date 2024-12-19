@@ -11,6 +11,15 @@
   --hightlight-color-light: #7a9fc2; /*light blue*/
 }
 
+/*Navbar*/
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
 body {
     font-family: var(--primary-font);
 }
