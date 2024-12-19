@@ -1,7 +1,39 @@
-body {
-    font-family: 'Inter', sans-serif;
+/*Google Fonts Import-->*/
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@100;300&family=Macondo&family=Oswald:wght@200..700&display=swap');
+
+/*CSS Variable*/
+:root {
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Macondo", cursive;
+  --primary-color:#3a2620; /*dark brown*/
+  --secondary-color: #aa9581; /*peach*/
+  --hightlight-color: #416a8e; /*blue*/
+  --hightlight-color-light: #7a9fc2; /*light blue*/
 }
 
-h1 {
-    font-family: 'Macondo', sans-serif;
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--hightlight-color);
+}
+
+/*Grid visualisation CSS for testing*/
+
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
 }
