@@ -41,6 +41,31 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/*Buttons*/
+
+.custom-button-filled {
+    border: 2px solid var(--hightlight-color);
+    background-color: var(--hightlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 2px solid var(--hightlight-color);
+    padding: 7px 25px;
+    color: var(--hightlight-color);
+}
+
+.custom-button-outline:hover {
+    background-color: var(--hightlight-color);
+    color: white;
+}
+
 /*Navbar*/
 #navbar {
     background-color: var(--primary-color);
@@ -109,6 +134,8 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
+
+
 /*Media queries*/
 
 /*Medium devices (tablets, 768px and up)*/
