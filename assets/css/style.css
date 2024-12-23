@@ -92,6 +92,21 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/*Events section*/
+
+#events span {
+    border: 2px solid var(--hightlight-color);
+    background-color: var(--hightlight-color);
+    color: white;
+    border-radius: 0;
+    padding: 2px 10px;
+}
+
+#events .table {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /*Game library section*/
 
 #new-games .card,
